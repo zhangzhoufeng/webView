@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="下.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="q8L-gy-drv">
+                                <rect key="frame" x="0.0" y="370" width="320" height="110"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="86e-kg-m8W"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="321" translatesAutoresizingMaskIntoConstraints="NO" id="lMG-F9-vxi">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="370"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.54107941199999998" green="1" blue="0.43019655890000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="q8L-gy-drv" firstAttribute="top" secondItem="lMG-F9-vxi" secondAttribute="bottom" id="5NE-yc-3xf"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="q8L-gy-drv" secondAttribute="bottom" id="70b-VF-yr0"/>
+                            <constraint firstItem="q8L-gy-drv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="8N1-uL-Y27"/>
+                            <constraint firstItem="lMG-F9-vxi" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="8lL-7G-9WZ"/>
+                            <constraint firstAttribute="trailing" secondItem="q8L-gy-drv" secondAttribute="trailing" id="Myk-FN-fbQ"/>
+                            <constraint firstAttribute="trailing" secondItem="lMG-F9-vxi" secondAttribute="trailing" id="ZuE-C5-U38"/>
+                            <constraint firstItem="lMG-F9-vxi" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="tKE-lc-3JI"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="480"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-40" y="341"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="321" width="844" height="1042"/>
+        <image name="下.jpg" width="1242" height="388"/>
+    </resources>
+</document>
